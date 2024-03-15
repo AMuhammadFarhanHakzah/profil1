@@ -33,7 +33,7 @@
 
       <div class="profile">
         <img src="{{asset('assets/img/user1.jpg')}}" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">A. M. Farhan Hakzah</a></h1>
+        <h1 class="text-light"><a href="index.html">Zephyr</a></h1>
         <div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -59,7 +59,7 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>A. M. Farhan Hakzah</h1>
+      <h1>Zephyr</h1>
       <p>I'm <span class="typed" data-typed-items="Web Developer, Full-stack laravel, Freelancer"></span></p>
     </div>
   </section><!-- End Hero -->
