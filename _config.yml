@@ -1,5 +1,5 @@
 title: profil1
 description: Portfolio Website
-theme: jekyll-theme-xyz
+theme: jekyll-theme-minimal
 destination: public
 source: public
