@@ -6,6 +6,97 @@
 
 @section('main')
     <main id="main">
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio section-bg">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Portfolio</h2>
+                    <p>Berikut adalah project-project yang telah pernah saya kerjakan sebelumnya. Terdiri dari berbagai
+                        macam project seperti toko online, kuis online, movie catalog, website company profile, ui ux design, etc.
+                    </p>
+                </div>
+
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-web">Web</li>
+                            <li data-filter=".filter-app">App</li>
+                            <li data-filter=".filter-UiUx">UI/UX</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-UiUx">
+                        <div class="portfolio-wrap">
+                            <img src="Web and Software/WhatsApp Image 2024-03-15 at 14.17.09_fe513a28.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="Web and Software/WhatsApp Image 2024-03-15 at 14.17.09_fe513a28.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="UI/UX 1"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="Web and Software/WhatsApp Image 2024-03-11 at 08.05.37_24b67cc9.jpg" class="img-fluid" alt="" style="border-radius: 25px;">
+                            <div class="portfolio-links">
+                                <a href="Web and Software/WhatsApp Image 2024-03-11 at 08.05.37_24b67cc9.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-UiUx">
+                        <div class="portfolio-wrap">
+                            <img src="Web and Software/WhatsApp Image 2024-03-15 at 14.18.10_37883db2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="Web and Software/WhatsApp Image 2024-03-15 at 14.18.10_37883db2.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="UI/UX 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="Web and Software/WhatsApp Image 2024-02-17 at 20.54.55_f08ddbd1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="Web and Software/WhatsApp Image 2024-02-17 at 20.54.55_f08ddbd1.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="Web and Software/WhatsApp Image 2024-03-14 at 21.21.34_40188b86.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="Web and Software/WhatsApp Image 2024-03-14 at 21.21.34_40188b86.jpg" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="Web and Software/Screenshot (352).png" class="img-fluid" alt="">
+                            <div class="portfolio-links">
+                                <a href="Web and Software/Screenshot (352).png" data-gallery="portfolioGallery"
+                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+            </div>
+        </section><!-- End Portfolio Section -->
 
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
@@ -35,7 +126,8 @@
                                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May
                                             1995</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                                        <span>www.example.com</span></li>
+                                        <span>www.example.com</span>
+                                    </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456
                                             7890</span></li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York,
@@ -48,9 +140,11 @@
                                     <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong>
-                                        <span>email@example.com</span></li>
+                                        <span>email@example.com</span>
+                                    </li>
                                     <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong>
-                                        <span>Available</span></li>
+                                        <span>Available</span>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -89,7 +183,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"
+                        data-aos-delay="100">
                         <div class="count-box">
                             <i class="bi bi-journal-richtext"></i>
                             <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
@@ -98,7 +193,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"
+                        data-aos-delay="200">
                         <div class="count-box">
                             <i class="bi bi-headset"></i>
                             <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
@@ -107,7 +203,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up"
+                        data-aos-delay="300">
                         <div class="count-box">
                             <i class="bi bi-people"></i>
                             <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
@@ -273,134 +370,6 @@
 
             </div>
         </section><!-- End Resume Section -->
-
-        <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio section-bg">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Portfolio</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-                        fugiat sit in iste officiis commodi quidem hic quas.</p>
-                </div>
-
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                        <div class="portfolio-wrap">
-                            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-links">
-                                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
-                                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Portfolio Section -->
 
         <!-- ======= Services Section ======= -->
         <section id="services" class="services">
