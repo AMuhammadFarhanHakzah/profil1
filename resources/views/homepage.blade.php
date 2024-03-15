@@ -32,9 +32,9 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-UiUx">
                         <div class="portfolio-wrap">
-                            <img src="Web and Software/WhatsApp Image 2024-03-15 at 14.17.09_fe513a28.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('Web and Software/WhatsApp Image 2024-03-15 at 14.17.09_fe513a28.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-links">
-                                <a href="Web and Software/WhatsApp Image 2024-03-15 at 14.17.09_fe513a28.jpg" data-gallery="portfolioGallery"
+                                <a href="{{asset('Web and Software/WhatsApp Image 2024-03-15 at 14.17.09_fe513a28.jpg')}}" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="UI/UX 1"><i class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
@@ -42,9 +42,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="Web and Software/WhatsApp Image 2024-03-11 at 08.05.37_24b67cc9.jpg" class="img-fluid" alt="" style="border-radius: 25px;">
+                            <img src="{{asset('Web and Software/WhatsApp Image 2024-03-11 at 08.05.37_24b67cc9.jpg')}}" class="img-fluid" alt="" style="border-radius: 25px;">
                             <div class="portfolio-links">
-                                <a href="Web and Software/WhatsApp Image 2024-03-11 at 08.05.37_24b67cc9.jpg" data-gallery="portfolioGallery"
+                                <a href="{{asset('Web and Software/WhatsApp Image 2024-03-11 at 08.05.37_24b67cc9.jpg')}}" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
@@ -52,9 +52,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-item filter-UiUx">
                         <div class="portfolio-wrap">
-                            <img src="Web and Software/WhatsApp Image 2024-03-15 at 14.18.10_37883db2.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('Web and Software/WhatsApp Image 2024-03-15 at 14.18.10_37883db2.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-links">
-                                <a href="Web and Software/WhatsApp Image 2024-03-15 at 14.18.10_37883db2.jpg" data-gallery="portfolioGallery"
+                                <a href="{{asset('Web and Software/WhatsApp Image 2024-03-15 at 14.18.10_37883db2.jpg')}}" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="UI/UX 2"><i class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
@@ -63,9 +63,9 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="Web and Software/WhatsApp Image 2024-02-17 at 20.54.55_f08ddbd1.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('Web and Software/WhatsApp Image 2024-02-17 at 20.54.55_f08ddbd1.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-links">
-                                <a href="Web and Software/WhatsApp Image 2024-02-17 at 20.54.55_f08ddbd1.jpg" data-gallery="portfolioGallery"
+                                <a href="{{asset('Web and Software/WhatsApp Image 2024-02-17 at 20.54.55_f08ddbd1.jpg')}}" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
@@ -74,9 +74,9 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="Web and Software/WhatsApp Image 2024-03-14 at 21.21.34_40188b86.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('Web and Software/WhatsApp Image 2024-03-14 at 21.21.34_40188b86.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-links">
-                                <a href="Web and Software/WhatsApp Image 2024-03-14 at 21.21.34_40188b86.jpg" data-gallery="portfolioGallery"
+                                <a href="{{asset('Web and Software/WhatsApp Image 2024-03-14 at 21.21.34_40188b86.jpg')}}" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
@@ -85,9 +85,9 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="Web and Software/Screenshot (352).png" class="img-fluid" alt="">
+                            <img src="{{asset('Web and Software/Screenshot (352).png')}}" class="img-fluid" alt="">
                             <div class="portfolio-links">
-                                <a href="Web and Software/Screenshot (352).png" data-gallery="portfolioGallery"
+                                <a href="{{asset('Web and Software/Screenshot (352).png')}}" data-gallery="portfolioGallery"
                                     class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                                 <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                             </div>
