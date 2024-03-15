@@ -1,0 +1,7 @@
+title: profil1
+description: Portfolio Website
+theme: jekyll-theme-minimal
+destination: public
+source: public
+sass:
+  sass_dir: public/assets/css/style.scss  # Adjust path if your SCSS file is in a subfolder within public/css
