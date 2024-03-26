@@ -1,6 +1,6 @@
 @extends('layouts.home')
 @section('title')
-    Halaman utama
+    Home
 @endsection
 
 
