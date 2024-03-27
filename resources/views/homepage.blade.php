@@ -12,7 +12,7 @@
 
                 <div class="section-title">
                     <h2>Portfolio</h2>
-                    <p>Berikut adalah project-project yang telah pernah saya kerjakan sebelumnya. Terdiri dari berbagai
+                    <p>Berikut merupakan project-project yang telah saya kerjakan. Terdiri dari berbagai
                         macam project seperti toko online, kuis online, movie catalog, website company profile, ui ux design, etc.
                     </p>
                 </div>
